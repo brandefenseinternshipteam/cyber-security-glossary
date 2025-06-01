@@ -5,7 +5,7 @@ Below is the list of contributors and their roles.
 
 | Name                 | GitHub Profile                             | Role               |
 |----------------------|--------------------------------------------|-------------------|
-| Batuhan Çelik        | [@username](https://github.com/username)   | Project Assistant |
+| Batuhan Çelik        | [@username](https://github.com/Bthanclk)   | Project Assistant |
 | Umur Fikret Ateş     | [@username](https://github.com/username)   | Project Assistant |
 | Ebubekir Erkaya      | [@username](https://github.com/username)   | Contributor       |
 | Gökhan Ozan Bektaş   | [@username](https://github.com/username)   | Contributor       |
