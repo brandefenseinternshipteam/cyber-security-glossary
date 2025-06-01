@@ -8,7 +8,7 @@ Below is the list of contributors who helped build the Cybersecurity Glossary.
 | Batuhan Çelik        | [@username](https://github.com/username) |
 | Ebubekir Erkaya      | [@username](https://github.com/username) |
 | Gökhan Ozan Bektaş   | [@username](https://github.com/username) |
-| Muhammed Ali         | [@username](https://github.com/username) |
+| Muhammed Ali Yılmaz  | [@username](https://github.com/username) |
 | Murat Çakmak         | [@username](https://github.com/username) |
 | Süleyman Erdüzgün    | [@username](https://github.com/username) |
 | Umur Fikret Ateş     | [@username](https://github.com/username) |
