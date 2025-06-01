@@ -4,3 +4,7 @@ A collection of cybersecurity terms explored during the internship, created by t
 ## 📖 Glossary
 
 You can browse the glossary here: [glossary.md](glossary.md)
+
+## 👥 Contributors
+
+See the full list of contributors [here](CONTRIBUTORS.md).
