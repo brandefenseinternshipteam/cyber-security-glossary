@@ -5,6 +5,18 @@ Prepared by the Brandefense 2024–2025 Winter–Spring Internship Team.
 All terms are grouped alphabetically below. Please contribute via pull request.
 ---
 
+## - 0 -
+
+_(This section is currently empty. Contributors may add their entries below this heading.)_
+
+---
+
+## - 1 -
+
+_(This section is currently empty. Contributors may add their entries below this heading.)_
+
+---
+
 ## - A -
 
 _(This section is currently empty. Contributors may add their entries below this heading.)_
@@ -36,12 +48,6 @@ _(This section is currently empty. Contributors may add their entries below this
 ---
 
 ## - F -
-
-_(This section is currently empty. Contributors may add their entries below this heading.)_
-
----
-
-## - G -
 
 _(This section is currently empty. Contributors may add their entries below this heading.)_
 
@@ -101,12 +107,6 @@ _(This section is currently empty. Contributors may add their entries below this
 
 ---
 
-## - Q -
-
-_(This section is currently empty. Contributors may add their entries below this heading.)_
-
----
-
 ## - R -
 
 _(This section is currently empty. Contributors may add their entries below this heading.)_
@@ -160,4 +160,3 @@ _(This section is currently empty. Contributors may add their entries below this
 _(This section is currently empty. Contributors may add their entries below this heading.)_
 
 ---
-
