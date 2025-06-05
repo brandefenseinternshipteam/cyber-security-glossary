@@ -31,6 +31,13 @@ _(This section is currently empty. Contributors may add their entries below this
 
 ## - A -
 
+### Air-Gap
+**Definition:**  
+An Air-Gap is a security measure that involves isolating a system completely from the internet or other external networks. This isolation is used to provide maximum protection against external cyber threats.
+
+**Example Usage:**  
+Critical servers in the defense industry are often operated with an Air-Gap to prevent external threats.
+
 ### Anonymity Set
 **Definition:**  
 An anonymity set refers to the group of users among whom an individual's actions are indistinguishable. In cybersecurity, a larger anonymity set implies greater privacy, as it becomes more difficult to link actions to a specific user.
@@ -77,6 +84,13 @@ Bitcoin is a decentralized digital cryptocurrency that can be transferred peer-t
 **Example Usage:**  
 In a ransomware attack, the attackers demanded payment in Bitcoin in exchange for decrypting the victim's files.
 
+### Botnet
+**Definition:**  
+A Botnet is a network of devices that have been compromised by malware and are controlled remotely via a command-and-control (C&C) server.
+
+**Example Usage:**  
+Attackers used a Botnet to launch a DDoS attack with thousands of compromised devices.
+
 ### Botnet C2 Detection
 **Definition:**  
 Botnet Command and Control (C2) detection involves identifying and monitoring the communication channels used by botnets to receive instructions from their controllers. Effective detection is crucial for disrupting botnet activities and mitigating their impact.
@@ -101,6 +115,13 @@ The process of determining whether multiple cyber incidents or indicators of com
 
 **Example Usage:**  
 The threat intelligence team performed campaign correlation and discovered that a series of phishing emails were all part of a single operation carried out by the same APT group.
+
+### Clickjacking
+**Definition:**  
+Clickjacking is a type of user interface attack that tricks users into clicking on something different from what they perceive, often using transparent iframes or misleading buttons.
+
+**Example Usage:**  
+The victim thought they clicked on a harmless button, but it actually submitted a hidden permission form — a classic case of Clickjacking.
 
 ### Combolist
 **Definition:**  
@@ -137,6 +158,13 @@ CVE is a database that assigns unique identifiers to known security vulnerabilit
 **Example Usage:**  
 The attacker exploited a vulnerability identified as CVE-2023-23397 to gain access to the system.
 
+### Cyber Kill Chain
+**Definition:**  
+The Cyber Kill Chain is a framework used to analyze and prevent cyberattacks by breaking them down into phases such as reconnaissance, weaponization, delivery, exploitation, installation, command and control, and actions on objectives.
+
+**Example Usage:**  
+The security analyst used the Cyber Kill Chain to trace how the attacker infiltrated the system.
+
 ---
 
 ## - D -
@@ -169,6 +197,13 @@ The portion of the Internet that is not indexed by standard search engines. Pass
 **Example Usage:**  
 Many illegal forums and marketplaces operate on the deep web, out of reach of search engines; cyber threat intelligence analysts often monitor these environments for data leaks.
 
+### Digital Forensics
+**Definition:**  
+Digital Forensics is a scientific discipline focused on investigating digital devices to uncover evidence of cybercrime or misconduct.
+
+**Example Usage:**  
+A Digital Forensics investigation on company computers revealed that the data breach was carried out by an insider.
+
 ### Doxxing
 **Definition:**  
 Doxxing is the act of publicly revealing private or personal information about an individual without their consent, typically with malicious intent. This can include addresses, phone numbers, or other sensitive data.
@@ -200,6 +235,13 @@ The act of altering the sender information in an email to make it appear as if i
 
 **Example Usage:**  
 An attacker used email spoofing to impersonate the company CEO and sent an urgent payment request to the accounting department, making it look as if it came from the CEO's address.
+
+### Event Correlation
+**Definition:**  
+Event Correlation is a technique used to link and analyze security events from various sources in order to identify meaningful patterns and potential threats.
+
+**Example Usage:**  
+The SIEM system used Event Correlation to detect a potential attack by aggregating multiple alerts.
 
 ### Exfiltration
 **Definition:**  
@@ -244,7 +286,12 @@ Intelligence analysts use Flashpoint to monitor dark web forums for mentions of 
 
 ## - H -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### Honeypot
+**Definition:**  
+A Honeypot is a decoy system designed to attract attackers, diverting them from real systems and allowing their behavior to be monitored.
+
+**Example Usage:**  
+The cybersecurity team deployed a Honeypot network to study the attacker’s techniques.
 
 ---
 
@@ -277,6 +324,13 @@ A method in threat intelligence where an IoC (indicator of compromise) is used a
  
 **Example Usage:**  
 An analyst performed indicator pivoting by searching for a malicious file hash in VirusTotal, discovering other files with the same hash and identifying related command and control server addresses.
+
+### Intermediaries
+**Definition:**  
+Intermediaries are systems such as proxies, VPNs, or botnets used by attackers to hide their identity or redirect traffic.
+
+**Example Usage:**  
+The attacker connected through a series of Intermediaries to mask their real IP address.
 
 ### Intrusion Set
 **Definition:**  
@@ -338,6 +392,13 @@ Malvertising involves injecting malicious code into legitimate online advertisin
 **Example Usage:**  
 Users were infected with ransomware after clicking on a seemingly harmless ad, a classic case of malvertising.
 
+### MITRE ATT&CK Mapping
+**Definition:**  
+MITRE ATT&CK Mapping involves aligning adversary behaviors to the MITRE ATT&CK framework to enable structured analysis of attack tactics and techniques.
+
+**Example Usage:**  
+The incident response team classified the intrusion behavior using MITRE ATT&CK Mapping.
+
 ---
 
 ## - N -
@@ -366,6 +427,13 @@ A cyber security analyst used OSINT techniques to assess the scope of a threat a
 
 ## - P -
 
+### Pastebin
+**Definition:**  
+Pastebin is a platform for sharing blocks of text quickly. Attackers often use sites like Pastebin to leak stolen data.
+
+**Example Usage:**  
+The ransomware group posted samples of the stolen data on Pastebin to threaten the victim.
+
 ### Payload
 **Definition:**  
 In cybersecurity, a payload refers to the part of malware that performs the malicious action, such as data theft, encryption, or system damage, after successful delivery and execution.
@@ -393,6 +461,13 @@ A technique in which an attacker uses a compromised system as a pivot point to m
 
 **Example Usage:**  
 During a penetration test, the expert used pivoting from a compromised web server to access a database server on the internal network, gaining access to sensitive data.
+
+### Public IoC Repositories
+**Definition:**  
+Public IoC Repositories are open-source data platforms that provide Indicators of Compromise (IoCs) such as IP addresses, file hashes, and domain names for threat intelligence purposes.
+
+**Example Usage:**  
+The security researcher began the investigation using threat data from Public IoC Repositories.
 
 ---
 
@@ -458,12 +533,26 @@ A small piece of machine code used as a payload during software exploitation. Hi
 **Example Usage:**  
 The attacker injected custom shellcode into the target system by exploiting a buffer overflow vulnerability. When executed, the shellcode created a reverse shell, granting the attacker command line access to the server.
 
+### Sniffing
+**Definition:**  
+Sniffing is the act of capturing and analyzing network traffic to monitor data transmission, often for malicious purposes such as stealing credentials.
+
+**Example Usage:**  
+The attacker used a packet sniffing tool to intercept login credentials from unencrypted network traffic.
+
 ### Stealer Logs
 **Definition:**  
 Stealer logs are records generated by information-stealing malware, containing harvested data such as login credentials, browser cookies, and autofill information. These logs are often sold on underground markets.
 
 **Example Usage:**  
 The breach was traced back to stealer logs that exposed employee credentials, leading to unauthorized access.
+
+### STIX/TAXII
+**Definition:**  
+STIX (Structured Threat Information Expression) and TAXII (Trusted Automated eXchange of Indicator Information) are standards that enable structured and automated sharing of cyber threat intelligence.
+
+**Example Usage:**  
+The organization shared threat intelligence with its partners using STIX and TAXII protocols.
 
 ### Strategic CTI
 **Definition:**  
@@ -482,6 +571,13 @@ Cyber threat intelligence that includes technical indicators and tactical/techni
 
 **Example Usage:**  
 The SOC team applied technical CTI feeds to firewall and IDS systems, blocking malicious IP addresses and proactively stopping intrusion attempts on the network.
+
+### Threat Intelligence Platform (TIP)
+**Definition:**  
+A Threat Intelligence Platform (TIP) is a centralized system that collects, normalizes, analyzes, and shares threat intelligence data to support detection and response operations.
+
+**Example Usage:**  
+The security operations center integrated a TIP to enrich alerts with external threat context.
 
 ### Threat Score Normalization
 **Definition:**  
@@ -531,6 +627,13 @@ The analyst used a VPN to anonymously access the target website during OSINT res
 ---
 
 ## - W -
+
+### Whistleblowing
+**Definition:**  
+Whistleblowing refers to the act of reporting illegal, unethical, or suspicious activities within an organization to authorities or the public.
+
+**Example Usage:**  
+Thanks to the employee’s whistleblowing, the organization was able to take action against the internal data leakage.
 
 ### Worm
 **Definition:**  
