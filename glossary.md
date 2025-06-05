@@ -33,6 +33,13 @@ An anonymity set refers to the group of users among whom an individual's actions
 **Example Usage:**  
 By routing traffic through multiple nodes, the network increased the anonymity set, enhancing user privacy against surveillance.
 
+### APT (Advanced Persistent Threat)  
+**Definition:**  
+APT refers to organized, long-term cyber attacks often carried out by state-sponsored or highly skilled threat groups. The goal is to infiltrate a system and remain undetected for an extended period.  
+
+**Example Usage:**  
+The APT group infiltrated energy sector networks and collected data for several months.
+
 ### APT Attribution  
 **Definition:**  
 The process of assigning (attributing) an Advanced Persistent Threat (APT) attack to a specific individual, group, or state-sponsored actor. This involves analyzing malicious software, infrastructure, and TTPs to determine which APT group or threat actor is behind the operation.
@@ -43,6 +50,13 @@ Security analysts attributed the targeted phishing campaign to APTXX after ident
 ---
 
 ## - B -
+
+### Bergie Web  
+**Definition:**  
+Bergie Web refers to web pages that are not indexed by general search engines but can still be accessed via direct links. It is considered the layer between the surface web and the deep web.  
+
+**Example Usage:**  
+The researcher discovered a page on the Bergie Web hosting leaked company documents.
 
 ### Bitcoin  
 **Definition:**  
@@ -85,12 +99,26 @@ A Command and Control (C2) server is used by attackers to communicate with infec
 **Example Usage:**  
 An infostealer may contact a C2 server every 30 seconds to receive new instructions.
 
+### Config (Configuration File)  
+**Definition:**  
+Configuration files define how software or systems should operate. In malware, config files often contain key data such as C2 server addresses.  
+
+**Example Usage:**  
+The malware’s config file included the IP address of the command and control server.
+
 ### Crack  
 **Definition:**  
 The act of removing or bypassing copy protection or licensing mechanisms in software, or the small program/script that achieves this. Commonly refers to illegal tools or techniques used to circumvent software licensing restrictions. The term also applies to password cracking—the act of bypassing security mechanisms such as passwords. 
  
 **Example Usage:**  
 A hacker developed a crack to disable the license check of a popular antivirus program and shared it on piracy forums.
+
+### CVE (Common Vulnerabilities and Exposures)  
+**Definition:**  
+CVE is a database that assigns unique identifiers to known security vulnerabilities, allowing them to be tracked and referenced globally.  
+
+**Example Usage:**  
+The attacker exploited a vulnerability identified as CVE-2023-23397 to gain access to the system.
 
 ---
 
@@ -103,6 +131,13 @@ The DarkNet is a part of the internet that is not indexed by standard search eng
 
 **Example Usage:**  
 Investigators monitored DarkNet forums to gather intelligence on emerging cyber threats targeting financial institutions.
+
+### Decoy Infrastructure  
+**Definition:**  
+Fake servers and systems deployed by attackers to distract or mislead investigators and hide their actual attack infrastructure.  
+
+**Example Usage:**  
+The threat group created decoy infrastructure using fake domains to divert security researchers.
 
 ### Deep Web  
 **Definition:**  
@@ -123,6 +158,13 @@ The activist faced harassment after being doxxed, with personal details shared a
 
 ## - E -
 
+### EDR (Endpoint Detection and Response)  
+**Definition:**  
+EDR systems monitor, detect, and respond to cyber threats on endpoint devices like computers or servers in real-time.  
+
+**Example Usage:**  
+The EDR solution detected and blocked a malicious PowerShell script from executing.
+
 ### Email Spoofing  
 **Definition:**  
 The act of altering the sender information in an email to make it appear as if it comes from a trusted source or individual. The goal is to deceive the recipient, often as part of phishing or fraud campaigns.  
@@ -141,6 +183,13 @@ The malware facilitated the exfiltration of confidential files, sending them to 
 ---
 
 ## - F -
+
+### Fake AV Campaigns  
+**Definition:**  
+Social engineering campaigns that trick users into downloading malware disguised as antivirus software.  
+
+**Example Usage:**  
+The victim clicked on a “Your system is infected!” popup and unknowingly installed fake antivirus malware.
 
 ### Firewall  
 **Definition:**  
@@ -174,6 +223,13 @@ The Invisible Internet Project (I2P) is an anonymous network layer that allows f
 **Example Usage:**  
 Cybercriminals utilized I2P to communicate securely, making it challenging for authorities to trace their activities.
 
+### Impersonation Infrastructure  
+**Definition:**  
+Infrastructure built using fake domains, email addresses, or websites that mimic legitimate organizations or individuals—commonly used in phishing attacks.  
+
+**Example Usage:**  
+The attackers used impersonation infrastructure with fake email addresses posing as a well-known bank.
+
 ### Indicator Pivoting  
 **Definition:**  
 A method in threat intelligence where an IoC (indicator of compromise) is used as a starting point to discover related indicators and information. For example, starting with a malware hash, analysts can pivot to find other systems where the hash appears, related IPs, or domain names. 
@@ -198,6 +254,13 @@ _(This section is currently empty. Contributors may add their entries below this
 ---
 
 ## - K -
+
+### Keylogger  
+**Definition:**  
+A keylogger is malware that records every keystroke a user makes, typically to steal sensitive information like passwords or credit card numbers.  
+
+**Example Usage:**  
+The keylogger installed on the victim’s system captured login credentials and sent them to the attacker.
 
 ### Kits-as-a-Service  
 **Definition:**  
@@ -234,6 +297,13 @@ _(This section is currently empty. Contributors may add their entries below this
 
 ## - O -
 
+### OPSEC (Operational Security)  
+**Definition:**  
+OPSEC refers to the measures taken to prevent sensitive or operational information from being exposed during activities, especially in cybersecurity or intelligence operations.  
+
+**Example Usage:**  
+During the penetration test, analysts followed OPSEC best practices by hiding their IP addresses.
+
 ### OSINT (Open Source Intelligence)  
 **Definition:**  
 Intelligence gathered by collecting and analyzing information from publicly available, legally accessible sources. This includes the Internet, social media, news sites, public databases, and other sources open to everyone. OSINT is used to produce actionable security insights.
@@ -252,6 +322,13 @@ In cybersecurity, a payload refers to the part of malware that performs the mali
 
 **Example Usage:**  
 Once the trojan was installed, its payload activated, encrypting all user files and demanding a ransom.
+
+### Phishing Kit  
+**Definition:**  
+A ready-to-use package that includes fake login pages and automated data collection tools used to conduct phishing attacks. 
+
+**Example Usage:**  
+The attacker used a phishing kit that mimicked a bank’s login page to steal user credentials.
 
 ### Pivoting  
 **Definition:**  
@@ -272,6 +349,13 @@ A Remote Administration Tool (RAT) is software that allows remote control of a s
 **Example Usage:**  
 The attacker deployed a RAT to gain persistent access to the victim's computer, monitoring activities and stealing sensitive data.
 
+### Reconnaissance  
+**Definition:**  
+The phase before a cyberattack in which attackers gather information about a target system, user, or organization—either passively or actively.  
+
+**Example Usage:**  
+Before launching the attack, the adversary performed passive reconnaissance to map the company’s email structure.
+
 ### Reverse Engineering  
 **Definition:**  
 The process of thoroughly analyzing a system, device, or software to understand its operation, components, and internal structure. In cybersecurity, reverse engineering is frequently used for malware analysis and vulnerability research (e.g., disassembling code to understand how a virus works).  
@@ -290,6 +374,13 @@ In cybersecurity, a sample refers to a specimen of malicious code or suspicious 
 
 **Example Usage:**  
 The analyst examined the malware sample to identify its origin and potential impact on the network.
+
+### Shadow Web  
+**Definition:**  
+A more hidden and restricted layer beneath the Dark Web, often associated with highly illegal or secretive content and networks. 
+
+**Example Usage:**  
+Investigators found communication channels linked to organized crime groups on the Shadow Web.
 
 ### Shellcode  
 **Definition:**  
@@ -325,6 +416,13 @@ Threat score normalization is the process of standardizing threat scores from va
 **Example Usage:**  
 By implementing threat score normalization, the security team could effectively compare and respond to threats identified by different systems.
 
+### TTPs (Tactics, Techniques, and Procedures)  
+**Definition:**  
+The behaviors, methods, and patterns used by threat actors during cyberattacks. Analyzing TTPs helps identify and attribute threat groups.  
+
+**Example Usage:**  
+Security analysts matched the attack’s TTPs with a known APT group’s previous campaigns.
+
 ---
 
 ## - U -
@@ -341,6 +439,13 @@ The analysis of the characteristics of victims targeted in a cyberattack and the
 
 **Example Usage:**  
 Intelligence analysts noticed that all recent attacks targeted energy sector companies. This victimology analysis suggested that the threat actor’s motivation was likely to disrupt energy infrastructure, rather than simple financial gain.
+
+### VPN (Virtual Private Network)  
+**Definition:**  
+A VPN encrypts internet traffic and routes it through a secure tunnel, masking the user’s identity and location.  
+
+**Example Usage:**  
+The analyst used a VPN to anonymously access the target website during OSINT research.
 
 ---
 
@@ -369,6 +474,13 @@ _(This section is currently empty. Contributors may add their entries below this
 ---
 
 ## - Z -
+
+### Zero-Day  
+**Definition:**  
+A zero-day is a security vulnerability that is unknown to the software vendor and has no existing patch. It is highly valuable to attackers.  
+
+**Example Usage:**  
+The attackers exploited a zero-day vulnerability in a popular plugin to compromise thousands of websites.
 
 ### ZeroNet  
 **Definition:**  
