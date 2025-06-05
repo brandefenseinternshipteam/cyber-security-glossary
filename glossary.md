@@ -8,12 +8,18 @@ All terms are grouped alphabetically below. Please contribute via pull request.
 ## - 0 -
 
 ### 0-Click
-
 **Definition:**  
 A 0-click (zero-click) attack is a cyberattack that requires no interaction from the victim. Exploiting vulnerabilities in software or hardware, attackers can execute malicious code without the user clicking on a link or opening a file. These attacks are particularly dangerous as they often leave minimal traces and are challenging to detect and mitigate.
 
 **Example Usage:**  
 The spyware infiltrated the device through a 0-click exploit in the messaging app, compromising the system without any user interaction.
+
+### 0-Day
+**Definition:**  
+A 0-Day (Zero-Day) vulnerability is a previously unknown software flaw that has not yet been patched by the vendor. Because it's undiscovered, attackers can exploit it before developers have a chance to fix it.
+
+**Example Usage:**  
+A threat actor used a 0-Day in a popular web browser to install spyware without the user’s knowledge.
 
 ---
 
@@ -26,7 +32,6 @@ _(This section is currently empty. Contributors may add their entries below this
 ## - A -
 
 ### Anonymity Set
-
 **Definition:**  
 An anonymity set refers to the group of users among whom an individual's actions are indistinguishable. In cybersecurity, a larger anonymity set implies greater privacy, as it becomes more difficult to link actions to a specific user.
 
@@ -47,6 +52,13 @@ The process of assigning (attributing) an Advanced Persistent Threat (APT) attac
 **Example Usage:**  
 Security analysts attributed the targeted phishing campaign to APTXX after identifying code similarities in the malicious emails, linking it to the group’s espionage operations.
 
+### Attack Path Mapping 
+**Definition:**  
+Attack path mapping is the process of identifying and visualizing potential paths an attacker might take to reach critical assets within a network.
+
+**Example Usage:**  
+The security team used attack path mapping to identify weak points in their infrastructure.
+
 ---
 
 ## - B -
@@ -66,7 +78,6 @@ Bitcoin is a decentralized digital cryptocurrency that can be transferred peer-t
 In a ransomware attack, the attackers demanded payment in Bitcoin in exchange for decrypting the victim's files.
 
 ### Botnet C2 Detection
-
 **Definition:**  
 Botnet Command and Control (C2) detection involves identifying and monitoring the communication channels used by botnets to receive instructions from their controllers. Effective detection is crucial for disrupting botnet activities and mitigating their impact.
 
@@ -77,6 +88,13 @@ By detecting the botnet’s C2 communication early, the security team was able t
 
 ## - C -
 
+### C2(Command and Control) 
+**Definition:**  
+C2 refers to the communication channel used by attackers to control infected systems remotely, send commands, and receive stolen data.
+
+**Example Usage:**  
+The malware beaconed out to its C2 server every five minutes.
+
 ### Campaign Correlation  
 **Definition:**  
 The process of determining whether multiple cyber incidents or indicators of compromise (IoCs) are part of the same threat campaign by analyzing their shared characteristics and relationships. Analysts correlate malicious infrastructure, malware families, or similar tactics across incidents.  
@@ -85,7 +103,6 @@ The process of determining whether multiple cyber incidents or indicators of com
 The threat intelligence team performed campaign correlation and discovered that a series of phishing emails were all part of a single operation carried out by the same APT group.
 
 ### Combolist
-
 **Definition:**  
 A combolist is a compiled list of usernames and passwords, often obtained from data breaches. Cybercriminals use these lists for credential stuffing attacks, attempting to gain unauthorized access to multiple accounts.
 
@@ -125,12 +142,18 @@ The attacker exploited a vulnerability identified as CVE-2023-23397 to gain acce
 ## - D -
 
 ### DarkNet
-
 **Definition:**  
 The DarkNet is a part of the internet that is not indexed by standard search engines and requires specific software, configurations, or authorization to access. It is often associated with anonymous activities, both legal and illegal.
 
 **Example Usage:**  
 Investigators monitored DarkNet forums to gather intelligence on emerging cyber threats targeting financial institutions.
+
+### DarkWeb 
+**Definition:**  
+The Dark Web is a part of the internet not indexed by traditional search engines and requires special software like Tor to access. It is often used for illicit activities.
+
+**Example Usage:**  
+Stolen credentials were found being sold on a Dark Web forum.
 
 ### Decoy Infrastructure  
 **Definition:**  
@@ -147,12 +170,18 @@ The portion of the Internet that is not indexed by standard search engines. Pass
 Many illegal forums and marketplaces operate on the deep web, out of reach of search engines; cyber threat intelligence analysts often monitor these environments for data leaks.
 
 ### Doxxing
-
 **Definition:**  
 Doxxing is the act of publicly revealing private or personal information about an individual without their consent, typically with malicious intent. This can include addresses, phone numbers, or other sensitive data.
 
 **Example Usage:**  
 The activist faced harassment after being doxxed, with personal details shared across multiple online platforms.
+
+### Dumps 
+**Definition:**  
+"Dumps" refers to collections of stolen data such as usernames, passwords, and credit card details often shared or sold on the Dark Web.
+
+**Example Usage:**  
+Hackers released credential dumps from a recent data breach.
 
 ---
 
@@ -173,12 +202,18 @@ The act of altering the sender information in an email to make it appear as if i
 An attacker used email spoofing to impersonate the company CEO and sent an urgent payment request to the accounting department, making it look as if it came from the CEO's address.
 
 ### Exfiltration
-
 **Definition:**  
 Exfiltration refers to the unauthorized transfer of data from a computer or network. Attackers often exfiltrate sensitive information for malicious purposes, such as identity theft or corporate espionage.
 
 **Example Usage:**  
 The malware facilitated the exfiltration of confidential files, sending them to an external server controlled by the attackers.
+
+### Exploit Kit 
+**Definition:**  
+An exploit kit is a toolkit used by cybercriminals to automatically scan for and exploit vulnerabilities in software to deliver malware.
+
+**Example Usage:**  
+The attacker used an exploit kit to deliver ransomware through a browser vulnerability.
 
 ---
 
@@ -216,12 +251,18 @@ _(This section is currently empty. Contributors may add their entries below this
 ## - I -
 
 ### I2P
-
 **Definition:**  
 The Invisible Internet Project (I2P) is an anonymous network layer that allows for censorship-resistant, peer-to-peer communication. It is designed to protect users' privacy and resist surveillance.
 
 **Example Usage:**  
 Cybercriminals utilized I2P to communicate securely, making it challenging for authorities to trace their activities.
+
+### IANA Port Numbers 
+**Definition:**  
+IANA (Internet Assigned Numbers Authority) port numbers are standardized port assignments used to identify specific services and protocols on a network.
+
+**Example Usage:**  
+HTTP uses IANA port number 80, while HTTPS uses port 443.
 
 ### Impersonation Infrastructure  
 **Definition:**  
@@ -238,7 +279,6 @@ A method in threat intelligence where an IoC (indicator of compromise) is used a
 An analyst performed indicator pivoting by searching for a malicious file hash in VirusTotal, discovering other files with the same hash and identifying related command and control server addresses.
 
 ### Intrusion Set
-
 **Definition:**  
 An intrusion set is a collection of related intrusion activities attributed to a specific threat actor or group. These sets help in understanding the tactics, techniques, and procedures (TTPs) used by attackers.
 
@@ -249,7 +289,12 @@ The security team identified an intrusion set linked to a known APT group, enabl
 
 ## - J -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### Jailbreak 
+**Definition:**  
+Jailbreaking is the process of removing restrictions imposed by the manufacturer on devices (especially iOS devices), allowing unauthorized apps or features to be installed.
+
+**Example Usage:**  
+The phone was jailbroken to allow installation of third-party apps.
 
 ---
 
@@ -279,8 +324,14 @@ _(This section is currently empty. Contributors may add their entries below this
 
 ## - M -
 
-### Malvertising
+### Malware
+**Definition:**  
+Malware (malicious software) is any software intentionally designed to harm, exploit, or otherwise compromise a system or network.
 
+**Example Usage:**  
+The malware encrypted all files and demanded a ransom.
+
+### Malvertising
 **Definition:**  
 Malvertising involves injecting malicious code into legitimate online advertising networks, redirecting users to malicious sites or directly delivering malware.
 
@@ -316,12 +367,18 @@ A cyber security analyst used OSINT techniques to assess the scope of a threat a
 ## - P -
 
 ### Payload
-
 **Definition:**  
 In cybersecurity, a payload refers to the part of malware that performs the malicious action, such as data theft, encryption, or system damage, after successful delivery and execution.
 
 **Example Usage:**  
 Once the trojan was installed, its payload activated, encrypting all user files and demanding a ransom.
+
+### Payload Delivery 
+**Definition:**  
+Payload delivery is the stage in a cyberattack where the malicious component (payload) such as ransomware or spyware is delivered to the target system.
+
+**Example Usage:**  
+The attacker used a phishing email to deliver the payload.
 
 ### Phishing Kit  
 **Definition:**  
@@ -342,12 +399,18 @@ During a penetration test, the expert used pivoting from a compromised web serve
 ## - R -
 
 ### RAT (Remote Administration Tool)
-
 **Definition:**  
 A Remote Administration Tool (RAT) is software that allows remote control of a system. While legitimate RATs are used for IT support, malicious RATs enable unauthorized access, often used for spying or data theft.
 
 **Example Usage:**  
 The attacker deployed a RAT to gain persistent access to the victim's computer, monitoring activities and stealing sensitive data.
+
+### RDP (Remote Desktop Protocol) 
+**Definition:**  
+RDP is a protocol developed by Microsoft that allows users to remotely access and control another computer over a network.
+
+**Example Usage:**  
+The hacker brute-forced RDP credentials to gain access to the server.
 
 ### Reconnaissance  
 **Definition:**  
@@ -368,12 +431,18 @@ A malware analyst used reverse engineering techniques to decode the ransomware�
 ## - S -
 
 ### Sample
-
 **Definition:**  
 In cybersecurity, a sample refers to a specimen of malicious code or suspicious file collected for analysis. Studying samples helps in understanding malware behavior and developing countermeasures.
 
 **Example Usage:**  
 The analyst examined the malware sample to identify its origin and potential impact on the network.
+
+### Sandbox 
+**Definition:**  
+A sandbox is a security mechanism used to run untrusted or suspicious code in an isolated environment to observe its behavior safely.
+
+**Example Usage:**  
+The malware was detonated in a sandbox to study its behavior.
 
 ### Shadow Web  
 **Definition:**  
@@ -390,12 +459,18 @@ A small piece of machine code used as a payload during software exploitation. Hi
 The attacker injected custom shellcode into the target system by exploiting a buffer overflow vulnerability. When executed, the shellcode created a reverse shell, granting the attacker command line access to the server.
 
 ### Stealer Logs
-
 **Definition:**  
 Stealer logs are records generated by information-stealing malware, containing harvested data such as login credentials, browser cookies, and autofill information. These logs are often sold on underground markets.
 
 **Example Usage:**  
 The breach was traced back to stealer logs that exposed employee credentials, leading to unauthorized access.
+
+### Strategic CTI
+**Definition:**  
+Strategic Cyber Threat Intelligence (CTI) focuses on high-level analysis of threat actors’ motivations, objectives, and long-term trends to inform leadership and decision-making.
+
+**Example Usage:**  
+Strategic CTI helped the board understand risks posed by nation-state actors.
 
 ---
 
@@ -409,7 +484,6 @@ Cyber threat intelligence that includes technical indicators and tactical/techni
 The SOC team applied technical CTI feeds to firewall and IDS systems, blocking malicious IP addresses and proactively stopping intrusion attempts on the network.
 
 ### Threat Score Normalization
-
 **Definition:**  
 Threat score normalization is the process of standardizing threat scores from various security tools to a common scale, facilitating consistent risk assessment and prioritization.
 
@@ -422,6 +496,13 @@ The behaviors, methods, and patterns used by threat actors during cyberattacks. 
 
 **Example Usage:**  
 Security analysts matched the attack’s TTPs with a known APT group’s previous campaigns.
+
+### Typosquatting
+**Definition:**  
+Typosquatting is a form of cyberattack where attackers register domain names similar to legitimate ones to trick users into visiting malicious websites.
+
+**Example Usage:**  
+The attacker created a typosquatted domain to steal login credentials.
 
 ---
 
@@ -452,7 +533,6 @@ The analyst used a VPN to anonymously access the target website during OSINT res
 ## - W -
 
 ### Worm
-
 **Definition:**  
 A worm is a type of malware that replicates itself to spread to other computers, often exploiting network vulnerabilities. Unlike viruses, worms do not require user interaction to propagate.
 
@@ -463,7 +543,12 @@ The worm rapidly spread through the corporate network, causing widespread disrup
 
 ## - X -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### XDR (Extended Detection and Response)
+**Definition:**  
+XDR is a security solution that integrates multiple security products (like endpoint, network, and cloud detection) into a single system for better visibility and response to threats.
+
+**Example Usage:**  
+The company deployed XDR to unify threat detection across its infrastructure.
 
 ---
 
