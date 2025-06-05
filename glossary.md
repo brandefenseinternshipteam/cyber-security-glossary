@@ -31,6 +31,13 @@ _(This section is currently empty. Contributors may add their entries below this
 
 ## - A -
 
+### Adversary Infrastructure  
+**Definition:**  
+The collection of tools, servers, domains, and infrastructure components used by threat actors to conduct cyber operations.
+
+**Example Usage:**  
+The malware was hosted on an adversary infrastructure consisting of multiple IP addresses and domains.
+
 ### Air-Gap
 **Definition:**  
 An Air-Gap is a security measure that involves isolating a system completely from the internet or other external networks. This isolation is used to provide maximum protection against external cyber threats.
@@ -84,6 +91,13 @@ Bitcoin is a decentralized digital cryptocurrency that can be transferred peer-t
 **Example Usage:**  
 In a ransomware attack, the attackers demanded payment in Bitcoin in exchange for decrypting the victim's files.
 
+### Blockchain  
+**Definition:**  
+A decentralized digital ledger used to record transactions across multiple computers securely.
+
+**Example Usage:**  
+The attacker attempted to launder cryptocurrency through multiple blockchain wallets.
+
 ### Botnet
 **Definition:**  
 A Botnet is a network of devices that have been compromised by malware and are controlled remotely via a command-and-control (C&C) server.
@@ -115,6 +129,13 @@ The process of determining whether multiple cyber incidents or indicators of com
 
 **Example Usage:**  
 The threat intelligence team performed campaign correlation and discovered that a series of phishing emails were all part of a single operation carried out by the same APT group.
+
+### Clearnet  
+**Definition:**  
+The portion of the internet that is publicly accessible and indexable by search engines.
+
+**Example Usage:**  
+The phishing site was hosted on the clearnet rather than the dark web.
 
 ### Clickjacking
 **Definition:**  
@@ -150,6 +171,13 @@ The act of removing or bypassing copy protection or licensing mechanisms in soft
  
 **Example Usage:**  
 A hacker developed a crack to disable the license check of a popular antivirus program and shared it on piracy forums.
+
+### Custom YARA Rules  
+**Definition:**  
+User-defined rules written in the YARA language to identify and classify malware based on patterns or strings.
+
+**Example Usage:**  
+The analyst wrote custom YARA rules to detect a new variant of ransomware.
 
 ### CVE (Common Vulnerabilities and Exposures)  
 **Definition:**  
@@ -197,6 +225,13 @@ The portion of the Internet that is not indexed by standard search engines. Pass
 **Example Usage:**  
 Many illegal forums and marketplaces operate on the deep web, out of reach of search engines; cyber threat intelligence analysts often monitor these environments for data leaks.
 
+### Diamond Model  
+**Definition:**  
+A cyber threat intelligence framework used to analyze intrusions by mapping out adversary, infrastructure, capability, and victim.
+
+**Example Usage:**  
+Using the Diamond Model, the CTI team linked the attack to an APT group with similar infrastructure patterns.
+
 ### Digital Forensics
 **Definition:**  
 Digital Forensics is a scientific discipline focused on investigating digital devices to uncover evidence of cybercrime or misconduct.
@@ -235,6 +270,13 @@ The act of altering the sender information in an email to make it appear as if i
 
 **Example Usage:**  
 An attacker used email spoofing to impersonate the company CEO and sent an urgent payment request to the accounting department, making it look as if it came from the CEO's address.
+
+### Escrow  
+**Definition:**  
+A financial arrangement in which a third party holds and regulates the payment of funds between two parties involved in a transaction.
+
+**Example Usage:**  
+The ransomware group used an escrow service to ensure payment before releasing the decryption key.
 
 ### Event Correlation
 **Definition:**  
@@ -286,6 +328,13 @@ Intelligence analysts use Flashpoint to monitor dark web forums for mentions of 
 
 ## - H -
 
+### Hash Value  
+**Definition:**  
+A unique fixed-length string generated from data input, used to verify file integrity and identify malicious files.
+
+**Example Usage:**  
+The analyst used the hash value of the file to check for matches in threat intelligence databases.
+
 ### Honeypot
 **Definition:**  
 A Honeypot is a decoy system designed to attract attackers, diverting them from real systems and allowing their behavior to be monitored.
@@ -324,6 +373,13 @@ A method in threat intelligence where an IoC (indicator of compromise) is used a
  
 **Example Usage:**  
 An analyst performed indicator pivoting by searching for a malicious file hash in VirusTotal, discovering other files with the same hash and identifying related command and control server addresses.
+
+### Infrastructure Chaining  
+**Definition:**  
+A technique used by attackers to link multiple layers of infrastructure together to hide the origin of malicious activity.
+
+**Example Usage:**  
+The threat actor used infrastructure chaining to route traffic through several compromised servers.
 
 ### Intermediaries
 **Definition:**  
@@ -392,6 +448,13 @@ Malvertising involves injecting malicious code into legitimate online advertisin
 **Example Usage:**  
 Users were infected with ransomware after clicking on a seemingly harmless ad, a classic case of malvertising.
 
+### MITRE ATT&CK  
+**Definition:**  
+A globally-accessible knowledge base of adversary tactics and techniques based on real-world observations.
+
+**Example Usage:**  
+The team mapped the attack to MITRE ATT&CK techniques T1059 and T1027.
+
 ### MITRE ATT&CK Mapping
 **Definition:**  
 MITRE ATT&CK Mapping involves aligning adversary behaviors to the MITRE ATT&CK framework to enable structured analysis of attack tactics and techniques.
@@ -408,6 +471,13 @@ _(This section is currently empty. Contributors may add their entries below this
 ---
 
 ## - O -
+
+### OpenCTI  
+**Definition:**  
+An open-source threat intelligence platform used to manage, share, and visualize cyber threat information.
+
+**Example Usage:**  
+The CTI analyst used OpenCTI to correlate threat actor activities with recent malware campaigns.
 
 ### OPSEC (Operational Security)  
 **Definition:**  
@@ -454,6 +524,13 @@ A ready-to-use package that includes fake login pages and automated data collect
 
 **Example Usage:**  
 The attacker used a phishing kit that mimicked a bank’s login page to steal user credentials.
+
+### Proxy  
+**Definition:**  
+A server that acts as an intermediary between a user’s device and the internet to provide anonymity or bypass restrictions.
+
+**Example Usage:**  
+The attacker routed traffic through a proxy to conceal their IP address.
 
 ### Pivoting  
 **Definition:**  
@@ -533,6 +610,20 @@ A small piece of machine code used as a payload during software exploitation. Hi
 **Example Usage:**  
 The attacker injected custom shellcode into the target system by exploiting a buffer overflow vulnerability. When executed, the shellcode created a reverse shell, granting the attacker command line access to the server.
 
+### SIEM (Security Information and Event Management)  
+**Definition:**  
+A security solution that collects, analyzes, and correlates data from various systems to detect and respond to security incidents.
+
+**Example Usage:**  
+The SOC team used the SIEM dashboard to identify unusual login activity across multiple endpoints.
+
+### Skimming  
+**Definition:**  
+A technique used to steal payment card data by intercepting information from card readers.
+
+**Example Usage:**  
+Attackers installed a skimming device on an ATM to capture users' card information.
+
 ### Sniffing
 **Definition:**  
 Sniffing is the act of capturing and analyzing network traffic to monitor data transmission, often for malicious purposes such as stealing credentials.
@@ -571,6 +662,13 @@ Cyber threat intelligence that includes technical indicators and tactical/techni
 
 **Example Usage:**  
 The SOC team applied technical CTI feeds to firewall and IDS systems, blocking malicious IP addresses and proactively stopping intrusion attempts on the network.
+
+### Threat Clustering  
+**Definition:**  
+The process of grouping similar threat events, behaviors, or indicators to identify and track threat actor campaigns.
+
+**Example Usage:**  
+Threat clustering helped link recent phishing attacks to a known cybercriminal group.
 
 ### Threat Intelligence Platform (TIP)
 **Definition:**  
@@ -623,6 +721,13 @@ A VPN encrypts internet traffic and routes it through a secure tunnel, masking t
 
 **Example Usage:**  
 The analyst used a VPN to anonymously access the target website during OSINT research.
+
+### Vulnerability  
+**Definition:**  
+A weakness in software, hardware, or procedures that can be exploited by threat actors to gain unauthorized access or cause harm.
+
+**Example Usage:**  
+The vulnerability in the outdated software allowed the attacker to gain remote access to the server.
 
 ---
 
