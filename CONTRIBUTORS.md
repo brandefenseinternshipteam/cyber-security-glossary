@@ -7,7 +7,7 @@ Below is the list of contributors and their roles.
 |----------------------|--------------------------------------------|-------------------|
 | Batuhan Çelik        | [@Bthanclk](https://github.com/Bthanclk)   | Project Assistant |
 | Umur Fikret Ateş     | [@umurates](https://github.com/umurates)   | Project Assistant |
-| Ebubekir Erkaya      | [@username](https://github.com/username)   | Contributor       |
+| Ebubekir Erkaya      | [@ebubekirl](https://github.com/ebubekirl)   | Contributor       |
 | Gökhan Ozan Bektaş   | [@username](https://github.com/username)   | Contributor       |
 | Muhammed Ali Yılmaz  | [@Bla-de-rgb](https://github.com/Bla-de-rgb)   | Contributor       |
 | Murat Çakmak         | [@MuratCkmk](https://github.com/MuratCkmk)   | Contributor       |
