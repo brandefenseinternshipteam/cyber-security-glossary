@@ -25,7 +25,12 @@ A threat actor used a 0-Day in a popular web browser to install spyware without 
 
 ## - 1 -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### 1-Day
+**Definition:**  
+A 1-Day vulnerability is a security flaw that has been publicly disclosed and is exploited by attackers before most systems have applied the patch.  
+
+**Example Usage:**  
+Attackers exploited a 1-Day vulnerability before it was patched across the network.
 
 ---
 
@@ -76,6 +81,13 @@ The security team used attack path mapping to identify weak points in their infr
 ---
 
 ## - B -
+
+### Beaconing
+**Definition:**  
+Beaconing is when malware sends regular signals to a Command and Control (C2) server to check for new instructions.  
+
+**Example Usage:**  
+The malware was beaconing every 10 seconds, awaiting commands from the C2 server.
 
 ### Bergie Web  
 **Definition:**  
@@ -158,6 +170,13 @@ A Command and Control (C2) server is used by attackers to communicate with infec
 **Example Usage:**  
 An infostealer may contact a C2 server every 30 seconds to receive new instructions.
 
+### Common TTP Extraction
+**Definition:**  
+The process of identifying common Tactics, Techniques, and Procedures (TTPs) used by attackers across multiple incidents.  
+
+**Example Usage:**  
+The analyst extracted shared TTPs from multiple intrusions to improve detection rules.
+
 ### Config (Configuration File)  
 **Definition:**  
 Configuration files define how software or systems should operate. In malware, config files often contain key data such as C2 server addresses.  
@@ -171,6 +190,13 @@ The act of removing or bypassing copy protection or licensing mechanisms in soft
  
 **Example Usage:**  
 A hacker developed a crack to disable the license check of a popular antivirus program and shared it on piracy forums.
+
+### CTI (Cyber Threat Intelligence)
+**Definition:**  
+Cyber Threat Intelligence involves gathering and analyzing information about threat actors, their tools, tactics, and motives to enhance cybersecurity posture.  
+
+**Example Usage:**  
+The CTI report detailed the threat group’s methods and target sectors.
 
 ### Custom YARA Rules  
 **Definition:**  
@@ -210,6 +236,13 @@ The Dark Web is a part of the internet not indexed by traditional search engines
 
 **Example Usage:**  
 Stolen credentials were found being sold on a Dark Web forum.
+
+### Data Breach
+**Definition:**  
+An incident where unauthorized individuals access, steal, or expose sensitive or confidential data.  
+
+**Example Usage:**  
+The company suffered a data breach exposing millions of customer records.
 
 ### Decoy Infrastructure  
 **Definition:**  
@@ -253,6 +286,13 @@ The activist faced harassment after being doxxed, with personal details shared a
 **Example Usage:**  
 Hackers released credential dumps from a recent data breach.
 
+### Dwell Time
+**Definition:**  
+The duration an attacker remains undetected in a system after initial compromise.  
+
+**Example Usage:**  
+The attacker’s dwell time was 72 days, allowing deep system access.
+
 ---
 
 ## - E -
@@ -291,6 +331,13 @@ Exfiltration refers to the unauthorized transfer of data from a computer or netw
 
 **Example Usage:**  
 The malware facilitated the exfiltration of confidential files, sending them to an external server controlled by the attackers.
+
+### Exploitation
+**Definition:**  
+The act of taking advantage of a vulnerability to gain unauthorized access or control over a system.  
+
+**Example Usage:**  
+The attacker exploited a vulnerability in the Apache server for initial access.
 
 ### Exploit Kit 
 **Definition:**  
@@ -395,6 +442,13 @@ An intrusion set is a collection of related intrusion activities attributed to a
 **Example Usage:**  
 The security team identified an intrusion set linked to a known APT group, enabling them to anticipate and defend against future attacks.
 
+### IRC (Internet Relay Chat)
+**Definition:**  
+An old messaging protocol sometimes used by botnets for Command and Control communication.  
+
+**Example Usage:**  
+The botnet was still using IRC channels to receive commands.
+
 ---
 
 ## - J -
@@ -405,6 +459,13 @@ Jailbreaking is the process of removing restrictions imposed by the manufacturer
 
 **Example Usage:**  
 The phone was jailbroken to allow installation of third-party apps.
+
+### Jamming
+**Definition:**  
+Interfering with wireless communication signals to disrupt or block functionality.  
+
+**Example Usage:**  
+The attacker used jamming to disable the security camera feed.
 
 ---
 
@@ -466,7 +527,12 @@ The incident response team classified the intrusion behavior using MITRE ATT&CK 
 
 ## - N -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### Network Artefacts
+**Definition:**  
+Residual indicators left on a network after malicious activity, such as abnormal traffic or connections to known malicious IPs.  
+
+**Example Usage:**  
+Investigators found network artefacts pointing to a lateral movement path.
 
 ---
 
@@ -518,6 +584,13 @@ Payload delivery is the stage in a cyberattack where the malicious component (pa
 **Example Usage:**  
 The attacker used a phishing email to deliver the payload.
 
+### Phishing
+**Definition:**  
+A technique where attackers trick users into revealing sensitive information like passwords or financial data via deceptive messages.  
+
+**Example Usage:**  
+The employee fell victim to a phishing email disguised as a company notice.
+
 ### Phishing Kit  
 **Definition:**  
 A ready-to-use package that includes fake login pages and automated data collection tools used to conduct phishing attacks. 
@@ -557,6 +630,13 @@ A Remote Administration Tool (RAT) is software that allows remote control of a s
 **Example Usage:**  
 The attacker deployed a RAT to gain persistent access to the victim's computer, monitoring activities and stealing sensitive data.
 
+### Ransomware
+**Definition:**  
+Malware that encrypts a victim’s files and demands payment (a ransom) in exchange for the decryption key.  
+
+**Example Usage:**  
+The company’s systems were locked down by ransomware demanding Bitcoin.
+
 ### RDP (Remote Desktop Protocol) 
 **Definition:**  
 RDP is a protocol developed by Microsoft that allows users to remotely access and control another computer over a network.
@@ -595,6 +675,13 @@ A sandbox is a security mechanism used to run untrusted or suspicious code in an
 
 **Example Usage:**  
 The malware was detonated in a sandbox to study its behavior.
+
+### Scammer
+**Definition:**  
+A person or group that defrauds others through deception, often via email, phone, or fake websites.  
+
+**Example Usage:**  
+The scammer tricked the victim with a fake investment opportunity.
 
 ### Shadow Web  
 **Definition:**  
@@ -652,6 +739,13 @@ Strategic Cyber Threat Intelligence (CTI) focuses on high-level analysis of thre
 **Example Usage:**  
 Strategic CTI helped the board understand risks posed by nation-state actors.
 
+### Supply Chain Attack
+**Definition:**  
+An attack that targets a system indirectly through vulnerabilities in third-party vendors or software providers.  
+
+**Example Usage:**  
+The attacker deployed malware through a compromised software update in a supply chain attack.
+
 ---
 
 ## - T -
@@ -702,7 +796,12 @@ The attacker created a typosquatted domain to steal login credentials.
 
 ## - U -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### Underground Forum
+**Definition:**  
+Online forums where cybercriminals exchange tools, stolen data, and coordinate illicit activities.  
+
+**Example Usage:**  
+Analysts tracked the group’s discussions in underground forums after the breach.
 
 ---
 
@@ -762,7 +861,12 @@ The company deployed XDR to unify threat detection across its infrastructure.
 
 ## - Y -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### YARA Rules
+**Definition:**  
+Rules used to identify and classify malware samples by matching specific strings or patterns in files.  
+
+**Example Usage:**  
+The threat hunter detected the malware immediately using YARA rules.
 
 ---
 
