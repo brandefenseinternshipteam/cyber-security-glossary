@@ -71,6 +71,13 @@ The process of assigning (attributing) an Advanced Persistent Threat (APT) attac
 **Example Usage:**  
 Security analysts attributed the targeted phishing campaign to APTXX after identifying code similarities in the malicious emails, linking it to the group’s espionage operations.
 
+### ASM (Attack Surface Management)
+**Definition:** 
+Attack Surface Management (ASM) is the continuous discovery, analysis, and monitoring of an organization's digital assets and potential attack vectors. ASM focuses especially on internet-facing assets and aims to proactively identify weaknesses that threat actors may exploit.
+
+**Example Sentence:** 
+A cybersecurity team uses an ASM platform to discover and monitor all internet-facing assets, identifying vulnerabilities before attackers can exploit them.
+
 ### Attack Path Mapping 
 **Definition:**  
 Attack path mapping is the process of identifying and visualizing potential paths an attacker might take to reach critical assets within a network.
@@ -102,6 +109,13 @@ Bitcoin is a decentralized digital cryptocurrency that can be transferred peer-t
 
 **Example Usage:**  
 In a ransomware attack, the attackers demanded payment in Bitcoin in exchange for decrypting the victim's files.
+
+### Black Market
+**Definition:** 
+The Black Market refers to illegal online marketplaces where cybercriminals, APT groups, hacktivists, and other malicious actors trade malware, access credentials, system vulnerabilities, stolen data, and services. 
+
+**Example Sentence:** 
+A security researcher discovers that **stolen credit card data** is being sold on a **black market forum** in the dark web.
 
 ### Blockchain  
 **Definition:**  
@@ -141,6 +155,13 @@ The process of determining whether multiple cyber incidents or indicators of com
 
 **Example Usage:**  
 The threat intelligence team performed campaign correlation and discovered that a series of phishing emails were all part of a single operation carried out by the same APT group.
+
+### Cipherspace
+**Definition:** 
+Cipherspace is a less common term in cybersecurity and cryptography that can vary in meaning depending on context. In cryptography, it generally refers to the entire set of possible encrypted outputs (ciphertexts) produced by an encryption algorithm.
+
+**Example Sentence:** 
+A cryptographer analyzes the cipherspace of a new encryption algorithm to ensure it produces a wide, unpredictable range of encrypted outputs.
 
 ### Clearnet  
 **Definition:**  
@@ -190,6 +211,13 @@ The act of removing or bypassing copy protection or licensing mechanisms in soft
  
 **Example Usage:**  
 A hacker developed a crack to disable the license check of a popular antivirus program and shared it on piracy forums.
+
+### Cryptography
+**Definition:** 
+Cryptography is the science of encrypting data to protect it from unauthorized access and ensuring confidentiality, integrity, authentication, and non-repudiation. It ensures that only authorized parties can read the information and that it remains accurate and verifiable.
+
+**Example Sentence:** 
+A banking application encrypts sensitive user data before transmitting it over the network, ensuring confidentiality and integrity.
 
 ### CTI (Cyber Threat Intelligence)
 **Definition:**  
@@ -258,6 +286,13 @@ The portion of the Internet that is not indexed by standard search engines. Pass
 **Example Usage:**  
 Many illegal forums and marketplaces operate on the deep web, out of reach of search engines; cyber threat intelligence analysts often monitor these environments for data leaks.
 
+### Deobfuscation
+**Definition:** 
+Deobfuscation is the process of reversing intentionally obfuscated code, scripts, or data back into a readable and analyzable form. It is a critical technique in malware analysis, reverse engineering, and threat intelligence.
+
+**Example Sentence:** 
+An analyst uses tools to **deobfuscate a piece of malware**, converting it back into readable code to uncover its malicious behavior.
+
 ### Diamond Model  
 **Definition:**  
 A cyber threat intelligence framework used to analyze intrusions by mapping out adversary, infrastructure, capability, and victim.
@@ -310,6 +345,13 @@ The act of altering the sender information in an email to make it appear as if i
 
 **Example Usage:**  
 An attacker used email spoofing to impersonate the company CEO and sent an urgent payment request to the accounting department, making it look as if it came from the CEO's address.
+
+### Enumeration
+**Definition:** 
+Enumeration is the process of actively querying a system, network, or application to gather more detailed information. Attackers or security testers use this step to identify services, users, shares, and system information. It usually follows reconnaissance and vulnerability scanning phases.
+
+**Example Sentence:**
+During a pentest, a tester performs enumeration to identify open ports, services, and user accounts on the target system.
 
 ### Escrow  
 **Definition:**  
@@ -370,6 +412,13 @@ A cyber threat intelligence platform and company focused on monitoring the dark 
  
 **Example Usage:**  
 Intelligence analysts use Flashpoint to monitor dark web forums for mentions of their company and to detect the sale of stolen data, allowing proactive defense.
+
+### Fraud
+**Definition:** 
+Fraud in cybersecurity and IT refers to malicious activities aimed at gaining financial benefit or unauthorized access through deception, trickery, or fraudulent methods. It can cause significant financial, operational, and reputational damage at both individual and organizational levels.
+
+**Example Sentence:** 
+A scammer creates a fake payment page, tricks the user into entering their credit card details, and **commits fraud** using the stolen information.
 
 ---
 
@@ -442,6 +491,13 @@ An intrusion set is a collection of related intrusion activities attributed to a
 **Example Usage:**  
 The security team identified an intrusion set linked to a known APT group, enabling them to anticipate and defend against future attacks.
 
+### IoC (Indicator of Compromise)
+**Definition:** 
+Indicator of Compromise (IoC) is a digital trace that indicates a system, network, or application has been compromised. These are used to detect the presence of threats, conduct incident response, and analyze cyber threats.
+
+**Example Sentence:** 
+A SOC analyst detects a suspicious IP address in the logs and recognizes it as an IoC previously linked to botnet activity.
+
 ### IRC (Internet Relay Chat)
 **Definition:**  
 An old messaging protocol sometimes used by botnets for Command and Control communication.  
@@ -489,7 +545,12 @@ A cybercriminal launched a ransomware campaign by renting a Ransomware-as-a-Serv
 
 ## - L -
 
-_(This section is currently empty. Contributors may add their entries below this heading.)_
+### Log Enrichment
+**Definition:** 
+Log enrichment is the process of adding additional context to collected log data to improve analysis and threat detection. These added details may include IP enrichment, user information, hostname/DNS resolution, timestamp normalization, OS or device info, and threat intelligence data.
+
+**Example Sentence:** 
+A SIEM platform enriches log data by adding contextual information like geolocation and threat intel, helping analysts detect suspicious activities more effectively.
 
 ---
 
@@ -538,6 +599,13 @@ Investigators found network artefacts pointing to a lateral movement path.
 
 ## - O -
 
+### Obfuscation
+**Definition:** 
+Obfuscation is the act of deliberately making code, data, or communication difficult to understand or analyze, often to hide malicious intent.
+
+**Example Sentence:** 
+A security analyst attempts to analyze a suspicious script but finds that the code is obfuscated, making it harder to understand its true purpose.
+
 ### OpenCTI  
 **Definition:**  
 An open-source threat intelligence platform used to manage, share, and visualize cyber threat information.
@@ -584,6 +652,13 @@ Payload delivery is the stage in a cyberattack where the malicious component (pa
 **Example Usage:**  
 The attacker used a phishing email to deliver the payload.
 
+### Pharming
+**Definition:** 
+Pharming is a form of phishing that combines the words “phishing” and “farming”. It refers to cyberattacks where users are redirected to fake websites in order to steal sensitive information (passwords, credit card details, session data, etc.). Unlike traditional phishing, pharming does not require users to click any link.
+
+**Example Sentence:** 
+A user types in their bank's correct web address, but due to manipulated DNS settings, they are redirected to a fake website and their login credentials are stolen.
+
 ### Phishing
 **Definition:**  
 A technique where attackers trick users into revealing sensitive information like passwords or financial data via deceptive messages.  
@@ -597,6 +672,13 @@ A ready-to-use package that includes fake login pages and automated data collect
 
 **Example Usage:**  
 The attacker used a phishing kit that mimicked a bank’s login page to steal user credentials.
+
+### Private IoCs
+**Definition:** 
+Private IoCs (Private Indicators of Compromise) are malicious activity indicators that are shared or retained exclusively within a specific organization, security operation, or threat intelligence community.
+
+**Example Sentence:** 
+A company identifies specific attack patterns unique to its infrastructure and stores them as Private IoCs, accessible only by internal security teams.
 
 ### Proxy  
 **Definition:**  
@@ -658,6 +740,13 @@ The process of thoroughly analyzing a system, device, or software to understand 
 **Example Usage:**  
 A malware analyst used reverse engineering techniques to decode the ransomware’s encryption algorithm and examined the malicious code with Ghidra to reveal how the attack functioned.
 
+### Rootkit
+**Definition:** 
+A Rootkit is a type of malicious software or set of tools that allows an attacker to maintain unauthorized and stealthy access to a system, usually with persistent control.
+
+**Example Sentence:** 
+An attacker installs a rootkit on a server to maintain hidden, long-term access, avoiding detection by antivirus tools.
+
 ---
 
 ## - S -
@@ -703,6 +792,13 @@ A security solution that collects, analyzes, and correlates data from various sy
 
 **Example Usage:**  
 The SOC team used the SIEM dashboard to identify unusual login activity across multiple endpoints.
+
+### Sinkhole
+**Definition:** 
+A Sinkhole is a method of redirecting and controlling malicious traffic or communications initiated by malware. The goal is to analyze, block, or neutralize the traffic.
+
+**Example Sentence:** 
+A cybersecurity team takes over a domain used by malware and redirects communication to a sinkhole server to block and monitor malicious traffic.
 
 ### Skimming  
 **Definition:**  
@@ -756,6 +852,13 @@ Cyber threat intelligence that includes technical indicators and tactical/techni
 
 **Example Usage:**  
 The SOC team applied technical CTI feeds to firewall and IDS systems, blocking malicious IP addresses and proactively stopping intrusion attempts on the network.
+
+### Threat Actor
+**Definition:** 
+A Threat Actor is a person, group, or organization that carries out or directs a cyberattack. These actors operate with malicious intent, such as stealing information, sabotaging systems, or demanding ransom.
+
+**Example Sentence:** 
+During an incident response, analysts identify the attacker as a threat actor belonging to an APT group targeting the company’s infrastructure.
 
 ### Threat Clustering  
 **Definition:**  
@@ -813,6 +916,13 @@ The analysis of the characteristics of victims targeted in a cyberattack and the
 
 **Example Usage:**  
 Intelligence analysts noticed that all recent attacks targeted energy sector companies. This victimology analysis suggested that the threat actor’s motivation was likely to disrupt energy infrastructure, rather than simple financial gain.
+
+### Virus
+**Definition:** 
+A Virus is a type of malicious software that spreads by copying itself to other files or systems. It is usually designed to cause damage, corrupt data, or render systems unusable.
+
+**Example Sentence:** 
+An employee opens a fake PDF attachment in an email. The file contains a **virus** that starts infecting and corrupting other files on the system
 
 ### VPN (Virtual Private Network)  
 **Definition:**  
